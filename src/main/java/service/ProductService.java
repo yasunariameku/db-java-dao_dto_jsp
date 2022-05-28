@@ -13,7 +13,9 @@ public class ProductService {
 	public ProductService() {
 	}
 	
+	
 	//idが一致しているデータを取ってくるセレクトメソッド
+
 	public Product findById(Integer product_id) {
         try (Connection conn = DbUtil.getConnection()) {
         	
